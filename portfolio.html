@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RIG ART - Professional Interior Design Studio Portfolio">
+    <meta name="keywords" content="interior design, portfolio, residential design, commercial design, 3D visualization">
+    <title>Portfolio - Interior Design Studio</title>
+    <link rel="stylesheet" href="modern-portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-animation">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="web1.html">
+                    <img src="regartlogo.jpeg" alt="Regart Logo" class="logo-img">
+                </a>
+                <h1>RIG ART</h1>
+            </div>
+            
+            <button class="hamburger" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="contacts.html">About</a></li>
+                    <li><a href="contacts.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>Our Portfolio</h2>
+            <p>Explore our collection of meticulously crafted interior designs. Each project represents our commitment to excellence and innovative design solutions that transform spaces into extraordinary environments.</p>
+        <div class="container">
+            
+
+            <!-- Portfolio Filters -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="3d">3D Visualizations</button>
+            </div>
+
+            <!-- Portfolio Items -->
+            <div class="portfolio-items">
+                <!-- Residential Project -->
+                <div class="portfolio-item residential" data-aos="fade-up">
+                    <img src="download (4).jpeg" alt="Modern Living Room Design" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>Modern Living Room</h3>
+                        <p>A contemporary design that blends comfort with style in this modern living room.</p>
+                    </div>
+                </div>
+
+                <!-- Commercial Project -->
+                <div class="portfolio-item commercial" data-aos="fade-up">
+                    <img src="download (6).jpeg" alt="Corporate Office Design" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>Corporate Office</h3>
+                        <p>This sleek office design enhances productivity while offering a welcoming atmosphere.</p>
+                    </div>
+                </div>
+
+                <!-- 3D Visualization -->
+                <div class="portfolio-item 3d" data-aos="fade-up">
+                    <img src="download (6).jpeg" alt="3D Office Space Visualization" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>3D Visualization of Office Space</h3>
+                        <p>Our 3D rendering services allow clients to see their space before construction even begins.</p>
+                    </div>
+                </div>
+
+                <!-- Residential Project -->
+                <div class="portfolio-item residential" data-aos="fade-up">
+                    <img src="download (3).jpeg" alt="Cozy Bedroom Design" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>Cozy Bedroom</h3>
+                        <p>This bedroom design emphasizes comfort with soft lighting and natural materials.</p>
+                    </div>
+                </div>
+
+                <!-- Commercial Project -->
+                <div class="portfolio-item commercial" data-aos="fade-up">
+                    <img src="download (3).jpeg" alt="Retail Store Interior" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>Retail Store Design</h3>
+                        <p>Modern, minimalistic design that improves customer experience and maximizes product display.</p>
+                    </div>
+                </div>
+
+                <!-- Residential Project -->
+                <div class="portfolio-item residential" data-aos="fade-up">
+                    <img src="download (1).jpeg" alt="Modern Kitchen Design" loading="lazy">
+                    <div class="portfolio-item-overlay">
+                        <a href="#" class="view-project">View Project</a>
+                    </div>
+                    <div class="portfolio-item-content">
+                        <h3>Spacious Kitchen</h3>
+                        <p>A spacious and functional kitchen design that blends modern amenities with timeless style.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All Rights Reserved.</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://in.pinterest.com/ideas">Pinterest</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('visible');
+            // Animate hamburger icon
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('visible');
+                menuToggle.classList.remove('active');
+            }
+        });
+    </script>
+
+    <script>
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                header.classList.remove("scroll-up");
+                return;
+            }
+            
+            if (currentScroll > lastScroll && !header.classList.contains("scroll-down")) {
+                // Scrolling down
+                header.classList.remove("scroll-up");
+                header.classList.add("scroll-down");
+            } else if (currentScroll < lastScroll && header.classList.contains("scroll-down")) {
+                // Scrolling up
+                header.classList.remove("scroll-down");
+                header.classList.add("scroll-up");
+            }
+            
+            lastScroll = currentScroll;
+        });
+    </script>
+</body>
+</html>

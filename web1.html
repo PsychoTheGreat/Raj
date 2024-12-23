@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interior design services for residential and commercial spaces. Transforming your home and office into beautiful spaces.">
+    <title>Interior Design Studio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="web1.html">
+                    <img src="regartlogo.jpeg" alt="Regart Logo" class="logo-img">
+                </a>
+                <h1>RIG ART</h1>
+            </div>
+            
+            <button class="hamburger" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="contacts.html">About</a></li>
+                    <li><a href="contacts.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="download (3).jpeg" alt="Interior Design 1">
+            </div>
+            <div class="slide fade">
+                <img src="download (1).jpeg" alt="Interior Design 2">
+            </div>
+            <div class="slide fade">
+                <img src="download (5).jpeg" alt="Interior Design 3">
+            </div>
+    
+            <!-- Navigation Buttons -->
+            <button class="prev" onclick="plusSlides(-1)">❮</button>
+            <button class="next" onclick="plusSlides(1)">❯</button>
+    
+            <!-- Slide Indicators -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <h2>Interior Design<br>& Decoration</h2>
+            <p>Creating beautiful spaces that inspire</p>
+            <a href="#services" class="btn-primary">Explore Our Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <h2 class="section-title">About RIG ART</h2>
+                    <p class="section-description">Transforming Spaces into Experiences</p>
+                    
+                    <div class="about-text">
+                        <p>RIG ART is a premier interior design studio dedicated to creating exceptional living and working spaces. With over a decade of experience, we blend creativity with functionality to deliver unique designs that reflect our clients' personalities and needs.</p>
+                        <p>Our team of passionate designers and architects works collaboratively to push the boundaries of conventional design, ensuring each project is a masterpiece of innovation and style.</p>
+                    </div>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Design Awards</span>
+                        </div>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Creative Design</h3>
+                            <p>Innovative solutions that inspire</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-ruler-combined"></i>
+                            <h3>Perfect Execution</h3>
+                            <p>Attention to every detail</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <h3>Client Focus</h3>
+                            <p>Your vision, our priority</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-grid">
+                        <img src="download (1).jpeg" alt="Interior Design Project 1" class="grid-img img1">
+                        <img src="download (2).jpeg" alt="Interior Design Project 2" class="grid-img img2">
+                        <img src="download (3).jpeg" alt="Interior Design Project 3" class="grid-img img3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-description">Transforming spaces into extraordinary experiences</p>
+        
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="download (7).jpeg" alt="Residential Design">
+                    <div class="service-image-content">
+                        <h3 class="service-image-title">Residential Design</h3>
+                        <p class="service-image-description">Luxury living spaces tailored to your lifestyle</p>
+                        <div class="service-image-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">25+</span>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">98%</span>
+                                <span>Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="/download (2).jpeg" alt="Commercial Design">
+                    <div class="service-image-content">
+                        <h3 class="service-image-title">Commercial Design</h3>
+                        <p class="service-image-description">Professional spaces that inspire success</p>
+                        <div class="service-image-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">40+</span>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">95%</span>
+                                <span>Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="/download (3).jpeg" alt="Hospitality Design">
+                    <div class="service-image-content">
+                        <h3 class="service-image-title">Hospitality Design</h3>
+                        <p class="service-image-description">Creating unforgettable guest experiences</p>
+                        <div class="service-image-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">15+</span>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">92%</span>
+                                <span>Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-image">
+                    <img src="/download (6).jpeg" alt="Institutional Design">
+                    <div class="service-image-content">
+                        <h3 class="service-image-title">Institutional Design</h3>
+                        <p class="service-image-description">Functional spaces for learning and growth</p>
+                        <div class="service-image-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">20+</span>
+                                <span>Projects</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">94%</span>
+                                <span>Client Satisfaction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="view-more-btn">DOWNLOAD CATALOGUE</a>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">design inspiration</h2>
+            <p class="section-description">Explore our latest interior design projects</p>
+            <p class="section-description-head" >images</p>
+
+            <div class="portfolio-container">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-item">
+                        <img src="download (1).jpeg" alt="Modern Living Room">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Living Room</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> New York</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (2).jpeg" alt="Luxury Kitchen">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Kitchen</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Los Angeles</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (3).jpeg" alt="Modern Office">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Office</h3>
+                            <p>Commercial Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Chicago</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (4).jpeg" alt="Luxury Bedroom">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Bedroom</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Miami</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (5).jpeg" alt="Modern Restaurant">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Restaurant</h3>
+                            <p>Commercial Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Seattle</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item last-item">
+                        <img src="download (4).jpeg" alt="Luxury Bedroom">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Bedroom</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Miami</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                        <div class="view-more-overlay">
+                            <a href="#" class="view-more-btn">
+                                <i class="fas fa-plus"></i>
+                                View More Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <p class="section-description-head">Videos</p>
+
+            <div class="portfolio-container">
+                <div class="portfolio-wrapper">
+                    <div class="portfolio-item">
+                        <img src="download (1).jpeg" alt="Modern Living Room">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Living Room</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> New York</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (2).jpeg" alt="Luxury Kitchen">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Kitchen</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Los Angeles</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (3).jpeg" alt="Modern Office">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Office</h3>
+                            <p>Commercial Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Chicago</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (4).jpeg" alt="Luxury Bedroom">
+                        <div class="portfolio-overlay">
+                            <h3>Luxury Bedroom</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Miami</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="download (5).jpeg" alt="Modern Restaurant">
+                        <div class="portfolio-overlay">
+                            <h3>Modern Restaurant</h3>
+                            <p>Commercial Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Seattle</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item last-item">
+                        <video src="video 1.mp4"></video>
+                        <div class="portfolio-overlay">
+                            <h3>Outdoor Space</h3>
+                            <p>Residential Project</p>
+                            <div class="portfolio-details">
+                                <span><i class="fas fa-map-marker-alt"></i> Boston</span>
+                                <span><i class="fas fa-calendar"></i> 2023</span>
+                            </div>
+                            <a href="#" class="portfolio-btn">View Project</a>
+                        </div>
+                        <div class="view-more-overlay">
+                            <a href="#" class="view-more-btn">
+                                <i class="fas fa-plus"></i>
+                                View More Projects
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to transform your space? Contact us today!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="icon-phone"></i>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="icon-email"></i>
+                            <p>info@rigart.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="icon-location"></i>
+                            <p>123 Design Street, City</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="submit_form.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All Rights Reserved.</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://in.pinterest.com/ideas">Pinterest</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('visible');
+            // Animate hamburger icon
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('visible');
+                menuToggle.classList.remove('active');
+            }
+        });
+    </script>
+
+    <script>
+        let lastScroll = 0;
+        const header = document.querySelector('header');
+        
+        window.addEventListener('scroll', () => {
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll <= 0) {
+                header.classList.remove("scroll-up");
+                return;
+            }
+            
+            if (currentScroll > lastScroll && !header.classList.contains("scroll-down")) {
+                // Scrolling down
+                header.classList.remove("scroll-up");
+                header.classList.add("scroll-down");
+            } else if (currentScroll < lastScroll && header.classList.contains("scroll-down")) {
+                // Scrolling up
+                header.classList.remove("scroll-down");
+                header.classList.add("scroll-up");
+            }
+            
+            lastScroll = currentScroll;
+        });
+    </script>
+
+    <script>
+        let slideIndex = 1;
+        let slideInterval;
+
+        showSlides(slideIndex);
+        startSlideshow();
+
+        function plusSlides(n) {
+            clearInterval(slideInterval);
+            showSlides(slideIndex += n);
+            startSlideshow();
+        }
+
+        function currentSlide(n) {
+            clearInterval(slideInterval);
+            showSlides(slideIndex = n);
+            startSlideshow();
+        }
+
+        function showSlides(n) {
+            let slides = document.getElementsByClassName("slide");
+            let dots = document.getElementsByClassName("dot");
+
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            for (let i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+
+        function startSlideshow() {
+            slideInterval = setInterval(() => {
+                slideIndex++;
+                showSlides(slideIndex);
+            }, 5000); // Change slides every 5 seconds
+        }
+
+        // Pause slideshow when hovering over navigation buttons
+        const slideshowContainer = document.querySelector('.slideshow-container');
+        slideshowContainer.addEventListener('mouseenter', () => clearInterval(slideInterval));
+        slideshowContainer.addEventListener('mouseleave', startSlideshow);
+    </script>
+
+    <script>
+        // Existing slideshow code...
+
+        // Add scroll reveal for view more button
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.5
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all last items
+        document.querySelectorAll('.last-item').forEach(item => {
+            observer.observe(item);
+        });
+    </script>
+
+    <script>
+        // Services Tabs
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabContents = document.querySelectorAll('.tab-content');
+
+        tabButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons and contents
+                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabContents.forEach(content => content.classList.remove('active'));
+
+                // Add active class to clicked button and corresponding content
+                button.classList.add('active');
+                const tabId = button.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+
+        // Portfolio Filter
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const portfolioItems = document.querySelectorAll('.portfolio-item');
+        const videoItems = document.querySelectorAll('.video-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                // Filter portfolio items
+                portfolioItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-type') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+
+                // Filter video items
+                videoItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-type') === filterValue) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+    <script>
+        // Portfolio Horizontal Scroll
+        const portfolioMasonry = document.querySelector('.portfolio-masonry');
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+
+        portfolioMasonry.addEventListener('mousedown', (e) => {
+            isDown = true;
+            portfolioMasonry.style.cursor = 'grabbing';
+            startX = e.pageX - portfolioMasonry.offsetLeft;
+            scrollLeft = portfolioMasonry.scrollLeft;
+        });
+
+        portfolioMasonry.addEventListener('mouseleave', () => {
+            isDown = false;
+            portfolioMasonry.style.cursor = 'grab';
+        });
+
+        portfolioMasonry.addEventListener('mouseup', () => {
+            isDown = false;
+            portfolioMasonry.style.cursor = 'grab';
+        });
+
+        portfolioMasonry.addEventListener('mousemove', (e) => {
+            if (!isDown) return;
+            e.preventDefault();
+            const x = e.pageX - portfolioMasonry.offsetLeft;
+            const walk = (x - startX) * 2;
+            portfolioMasonry.scrollLeft = scrollLeft - walk;
+        });
+
+        // Set initial cursor style
+        portfolioMasonry.style.cursor = 'grab';
+    </script>
+
+</body>
+</html>

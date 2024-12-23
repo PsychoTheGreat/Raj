@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horizontal Scroll Container</title>
+  <style>
+    .horizontal-scroll-container {
+      width: 100%; /* Full width of the viewport */
+      height: 200px; /* Set a fixed height */
+      overflow-x: auto; /* Enable horizontal scrolling */
+      white-space: nowrap; /* Prevent wrapping */
+      border: 2px solid #ccc; /* Optional: for better visibility */
+    }
+
+    .item {
+      display: inline-block;
+      width: 200px; /* Fixed width for each item */
+      height: 100%;
+      margin-right: 10px;
+      background: lightblue;
+      text-align: center;
+      line-height: 200px;
+      font-size: 24px;
+      border-radius: 5px;
+    }
+
+    .item:nth-child(odd) {
+      background-color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="horizontal-scroll-container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="item">Item 5</div>
+    <div class="item">Item 6</div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(145, 7, 122);
+}
+
+/*HEADER*/
+
+header{
+    background-image: url("images.jpeg");
+    background-size: 100%;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    height: 400px;
+    color: white;
+    }
+header {
+    colour:white;
+    background-color: rgb(112, 3, 63);
+    font-style:inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top:1px;
+    text-align: center;
+
+}
+header a{
+    color: rgb(255, 255, 255);
+}
+
+header .mobile{
+    display: none;
+}
+
+
+
+header .logo a {
+    text-align:left;
+    background-image: url("logo2.jpg");
+    display: inline-block;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    height:80px;
+    position:initial;
+    top: -40px;
+    width: 250px;
+    text-indent: -9999999px;
+    
+}
+
+/*RESPONSIVE RULES*/
+@media screen and (max-width: 715px) {
+    header{
+        height: 250px;
+        background-position: 0 -30px;
+    }
+    header .mobile{
+        display: inline-block;
+        
+    }
+    header .desktop{
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width: 715px) {
+    header {
+        height: 200px;
+        background-position: 0 -40px;
+    }
+}
+    
+
+
+
+/*FEATURES*/
+
+div{
+    background-color:rgb(145, 7, 122);
+    text-align: center;
+    text-indent: 5%;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.img{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.img figure{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.img figure img{
+    
+    border: 1px solid white;
+    border-color:aquamarine;
+    box-shadow: gray 5px 5px 5px;
+    width: 300px;
+}
+
+p first-child{
+    margin-left: 0;
+    background-color: bisque;
+    border-radius: 1px;
+    padding: 0px;
+    }
+
+p:hover{
+    background-color: aqua;
+    color: rgb(243, 243, 243);
+    margin-left: 0;
+    border-radius: 2px;
+}
+
+nav{
+    background-color:rgb(240, 165, 227)
+}
+li{
+    display:block;
+    padding: 20px;
+}
+p{
+    display: inline;
+    padding: 20px;
+    flex-direction:row;
+}
+.features{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.features figure {
+    margin: auto;
+    width: 100;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+.features figure img{
+    border-radius: 50px;
+    border: 1px solid white;
+    border-color:aquamarine;
+    box-shadow: gray 10px 10px 10px;
+    width: 200px;
+}
+
+
+
+.download {
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    margin-left : 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+    font-size: 22px;
+
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(102, 2, 72);
+}
+

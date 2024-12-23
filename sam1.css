@@ -1,0 +1,89 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+/* Main portfolio container: grid layout */
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px; /* space between portfolio items */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual portfolio item */
+.portfolio-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Sub-grid inside each portfolio item */
+.sub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px; /* space between sub-items */
+    padding: 15px;
+}
+
+/* Each sub-item in the sub-grid */
+.sub-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for sub-items */
+.sub-item img:hover {
+    transform: scale(1.05);
+}.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+
+
+/* Responsive layout: Smaller grids for mobile devices */
+@media screen and (max-width: 768px) {
+    .portfolio-container {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    /* Adjust sub-grids in portfolio items */
+    .sub-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Portfolio item in smaller screens - single column */
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    /* Sub-grids become single-column in smaller screens */
+    .sub-grid {
+        grid-template-columns: 1fr;
+    }
+}

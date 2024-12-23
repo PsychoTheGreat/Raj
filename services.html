@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interior design services for residential and commercial spaces. Transforming your home and office into beautiful spaces.">
+    <title>Our Services - Interior Design Studio</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="web1.html">
+                    <img src="regartlogo.jpeg" alt="Regart Logo" class="logo-img">
+                </a>
+                <h1>RIG ART</h1>
+            </div>
+            
+            <button class="hamburger" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="web1.html">Home</a></li>
+                    <li><a href="services.html" class="active">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                    <li><a href="contacts.html">About</a></li>
+                    <li><a href="contacts.html">Reviews</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Interior Design Services</h2>
+            <p>We provide high-quality, personalized interior design services tailored to meet your needs. Here are the services we offer:</p>
+
+            <!-- Service 1 -->
+            <div class="service-card">
+                <h3>Residential Design</h3>
+                <p>Transform your home into a cozy, stylish, and functional space. We work with you to create a design that suits your taste and lifestyle.</p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card">
+                <h3>Commercial Design</h3>
+                <p>Enhance your business space with creative designs that reflect your brand and improve the functionality of your office, store, or any other commercial space.</p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card">
+                <h3>3D Visualization</h3>
+                <p>See your space come to life before committing to any design decisions with our 3D visualization and rendering services. Perfect for visualizing furniture, layout, and decor.</p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card">
+                <h3>Consultation Services</h3>
+                <p>If you're unsure where to start, our design consultation services are here to help you. We'll guide you through the process and help you make informed design decisions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All Rights Reserved.</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://in.pinterest.com/ideas">Pinterest</a></li>
+            </ul>
+
+        </div>
+    </footer>
+
+    <script>
+        // Menu Toggle Functionality
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

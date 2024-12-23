@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f3eded;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Optional: adds space above the button */
+}
+
+input[type="submit"] {
+    width: 100%;  /* Adjust width as needed */
+    max-width: 600px;  /* Optional: set a max width for the button */
+    background-color: #021b02;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #fdfffd;
+    color: black;
+    transition: transform 0.5s ease;
+}
+
+
+.social-login {
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 1.5rem;                 
+    padding: 0;
+    margin-top: 50px;  /* Space between the login button and social links */
+    transition: all 0.3s ease;  
+}
+
+.social-login:hover {
+
+    transform: scale(1.05);
+}
+
+.social-loginsi {
+    font-size: 1.2rem;
+}
+
+.social-logo {
+    border-radius: 80px;
+    width: 50px;  /* Set the desired width */
+    height: 50px; /* Set the desired height */
+    align-items: center;
+    background-repeat: no-repeat;
+
+}
+
+.image-section {
+    flex: 1;
+    background-image: url("/white.jpg"); /* Update this path to your image */
+    background-size: cover;
+    background-position: center;
+}
+
+
+        /* Add this to your existing CSS */
+@media (max-width: 768px) {
+    h2{
+        text-align: center;
+    }
+
+    input[type="text"], input[type="password"], input[type="submit"]   {
+        width: 100%;
+    }
+
+    .button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 10px; /* Optional: adds space above the button */
+    }
+
+    input[type="submit"] {
+    width: 90%; /* Adjust width as needed */
+    max-width: 400px; /* Optional: set a max width for the button */
+    margin-left: 10px;
+    }
+
+    .login-container {
+        padding: 10px; /* Add some padding for smaller screens */
+        width: 80%;
+    }
+
+    .social-login {
+        flex-direction: inline; /* Stack social buttons vertically */
+        align-items: center; /* Center align items */
+    }
+
+    .social-logo {
+        width: 40px; /* Adjust logo size for mobile */
+        height: 40px;
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .image-section {
+        display: none; /* Hide the image section on mobile if not needed */
+    }
+}
+
+ @media (max-width: 425px) {
+    .login-container {
+        padding: 10px;
+    }
+    input[type="text"], input[type="password"] {
+        width: 94%;
+
+    }
+
+    input[type="submit"] {
+        width: 80%;
+        align-items: center;
+        direction: flex;
+    }
+    
+    
+
+
+}

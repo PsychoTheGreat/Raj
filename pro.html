@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interior design services for residential and commercial spaces. Transforming your home and office into beautiful spaces.">
+    <title>Interior Design Studio</title>
+    <link rel="stylesheet" href="pro.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="web1.html">
+                    <img src="regartlogo.jpeg" alt="Regart Logo" class="logo-img">
+                </a>
+                <h1>RIG ART</h1>
+            </div>
+            
+            <button class="hamburger" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Interior Design<br>& Decoration</h2>
+            <p>Creating beautiful spaces that inspire</p>
+            <a href="#services" class="btn-primary">Explore Our Work</a>
+        </div>
+       
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>We are passionate about creating spaces that reflect your personality and meet your needs. Our team of experienced designers brings creativity and expertise to every project.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>150+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="residential.jpg" alt="Residential Design">
+                    <h3>Residential Design</h3>
+                    <p>Transform your home into a cozy, stylish space that suits your lifestyle.</p>
+                </div>
+                <div class="service-card">
+                    <img src="commercial.jpg" alt="Commercial Design">
+                    <h3>Commercial Design</h3>
+                    <p>Innovative and functional design solutions for businesses and offices.</p>
+                </div>
+                <div class="service-card">
+                    <img src="3d-viz.jpg" alt="3D Visualization">
+                    <h3>3D Visualization</h3>
+                    <p>Get a realistic view of your space before making design decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="download (1).jpeg" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Modern Living Room</h3>
+                        <p>Residential Project</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="download (5).jpeg" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Corporate Office</h3>
+                        <p>Commercial Project</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="download (7).jpeg" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Luxury Bedroom</h3>
+                        <p>Residential Project</p>
+                    </div>
+                </div>
+            </div>
+            <a href="portfolio.html" class="btn-secondary">View All Projects</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to transform your space? Contact us today!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="icon-phone"></i>
+                            <p>+1 (123) 456-7890</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="icon-email"></i>
+                            <p>info@rigart.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="icon-location"></i>
+                            <p>123 Design Street, City</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form action="submit_form.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All Rights Reserved.</p>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://in.pinterest.com/ideas">Pinterest</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('visible');
+            // Animate hamburger icon
+            menuToggle.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('visible');
+                menuToggle.classList.remove('active');
+            }
+        });
+    </script>
+
+</body>
+</html>

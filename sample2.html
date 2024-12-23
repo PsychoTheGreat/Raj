@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Interior Design Studio</title>
+    <link rel="stylesheet" href="stylesample.css"> <!-- Link to your CSS file -->
+    
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>RIGART</h1>
+            <nav>
+                <ul>
+                    <li><a href="web1.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <p>Take a look at some of the amazing interior design projects we've completed. From residential to commercial spaces, we offer unique and personalized design solutions.</p>
+
+            <!-- Portfolio Filters -->
+            <div class="filters">
+                <button class="filter-btn" onclick="filterPortfolio('all')">All</button>
+                <button class="filter-btn" onclick="filterPortfolio('residential')">Residential</button>
+                <button class="filter-btn" onclick="filterPortfolio('commercial')">Commercial</button>
+                <button class="filter-btn" onclick="filterPortfolio('3d')">3D Visualizations</button>
+            </div>
+
+            <div class="horizontal-scroll-container">
+                <div id="a" class="item">Item 1</div>
+                <div id="b" class="item">Item 2</div>
+                <div id="c" class="item">Item 3</div>
+                <div id="d" class="item">Item 4</div>
+                <div id="e" class="item">Item 5</div>
+                <div id="" class="item">Item 6</div>
+            </div>
+            
+
+
+            <!-- Portfolio Items -->
+            <div class="portfolio-items">
+                <!-- Residential Project -->
+                <div class="portfolio-item residential">
+                    <img src="download (4).jpeg" alt="Residential Design Project">
+                    <h3>Modern Living Room</h3>
+                    <p>A contemporary design that blends comfort with style in this modern living room.</p>
+                </div>
+
+                <!-- Commercial Project -->
+                <div class="portfolio-item commercial">
+                    <img src="download (6).jpeg" alt="Commercial Design Project">
+                    <h3>Corporate Office</h3>
+                    <p>This sleek office design enhances productivity while offering a welcoming atmosphere.</p>
+                </div>
+
+                <!-- 3D Visualization -->
+                <div class="portfolio-item 3d">
+                    <img src="download (6).jpeg" alt="3D Visualization Project">
+                    <h3>3D Visualization of Office Space</h3>
+                    <p>Our 3D rendering services allow clients to see their space before construction even begins.</p>
+                </div>
+
+                <!-- Residential Project -->
+                <div class="portfolio-item residential">
+                    <img src="download (3).jpeg" alt="Residential Design Project">
+                    <h3>Cozy Bedroom</h3>
+                    <p>This bedroom design emphasizes comfort with soft lighting and natural materials.</p>
+                </div>
+
+                <!-- Commercial Project -->
+                <div class="portfolio-item commercial">
+                    <img src="download (3).jpeg" alt="Commercial Design Project">
+                    <h3>Retail Store Design</h3>
+                    <p>Modern, minimalistic design that improves customer experience and maximizes product display.</p>
+                </div>
+
+                <!-- Residential Project -->
+                <div class="portfolio-item residential">
+                    <img src="download (1).jpeg" alt="Residential Design Project">
+                    <h3>Spacious Kitchen</h3>
+                    <p>A spacious and functional kitchen design that blends modern amenities with timeless style.</p>
+                </div>
+                <div class="portfolio-item residential">
+                    <img src="download (4).jpeg" alt="Residential Design Project">
+                    <h3>Modern Living Room</h3>
+                    <p>A contemporary design that blends comfort with style in this modern living room.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Scroll container -->
+    <div class="scroll-container">
+        <button class="scroll-btn" id="scrollBtn">&lt;</button>
+        
+        <!-- Horizontally scrollable content -->
+        <div class="scrollable-content">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+            <div class="item">Item 10</div>
+        </div>
+        <button class="scroll-btn" id="scrollRight">&gt;</button>
+    </div>
+    
+
+
+    
+
+
+    <h2>Scrolling Image Gallery</h2>
+    <div class="carousel">
+        <button id="prev" class="carousel-btn">❮</button>
+        <div class="carousel-track-container">
+            <div class="carousel-track" id="carouselTrack">
+                <img src="download (1).jpeg" alt="Image 1">
+                <img src="download (3).jpeg">
+                <img src="download (4).jpeg">
+                <img src="download (5).jpeg">
+                <img src="download (1).jpeg" alt="Image 1">
+                <img src="download (1).jpeg" alt="Image 1">
+                <img src="download (1).jpeg" alt="Image 1">
+                <img src="download (1).jpeg" alt="Image 1">
+                <img src="download (1).jpeg" alt="Image 1">
+                
+                
+                
+            </div>
+        </div>
+        <button id="next" class="carousel-btn">❯</button>
+    </div>
+   
+
+   
+
+    <script src="Untitled-2.js"></script>
+
+
+  
+
+
+  
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Interior Design Studio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+   
+
+</body>
+</html>
